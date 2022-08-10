@@ -4,8 +4,8 @@ import HomeCarasouls from "./carasouls/HomeCarasouls";
 
 function Body() {
   return (
-    <div className="bg-body bg-[url('/body-img2.png')] lg:grid lg:grid-cols-3 lg:py-20 min-h-screen">
-      <div className=" lg:col-span-1 bg-no-repeat relative lg:pb-0 pb-36 lg:p-0 p-8 lg:mt-18">
+    <div className="bg-body bg-[url('/body-img2.png')] lg:grid lg:grid-cols-3 lg:pt-20 min-h-screen ">
+      <div className=" lg:col-span-1 bg-no-repeat relative lg:pb-0 pb-36 lg:p-0 p-8 lg:mt-18 lg:h-1/2">
         <img src="/body-img2.png" className="invisible lg:w-full w-1/2"></img>
         <div className="lg:absolute lg:top-32 lg:left-11 lg:bottom-0 bottom-8 lg:pl-8">
           <h1 className="text-white font-navbar lg:text-5xl text-3xl w-fit text-justify">
@@ -46,7 +46,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="lg:col-span-2 overflow-hidden mt-32 ml-24 lg:grid hidden lg:h-full">
+      <div className="lg:col-span-2 overflow-hidden mt-36 ml-24 lg:grid hidden h-1/2">
         <HomeCarasouls />
       </div>
     </div>

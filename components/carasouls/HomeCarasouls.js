@@ -25,50 +25,26 @@ const HomeCarasouls = () => {
         clickable: true,
       }}
       modules={[EffectCoverflow, Pagination]}
-      className="mySwiper lg:w-[75rem] sm:w-[20rem]"
+      className="mySwiper lg:w-[75rem]"
     >
       <SwiperSlide>
         <img
-          className="w-full h-1/2"
+          className="w-full object-fit h-full"
           src="/assets/home page photos/HomeCara1.png"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          className="w-full h-1/2"
+          className="w-full object-fit h-full"
           src="/assets/home page photos/HomeCara2.png"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          className="w-full h-1/2"
+          className="w-full object-fit h-full"
           src="/assets/home page photos/HomeCara4.png"
         />
       </SwiperSlide>
-      {/* <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-      </SwiperSlide> */}
     </Swiper>
   );
 };

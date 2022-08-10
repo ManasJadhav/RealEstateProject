@@ -1,62 +1,44 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-// import required modules
 import { Pagination, Navigation } from "swiper";
+import Images2 from "../imageData/image2";
 
-// import Img1 from "/img1.png";
+const CardsCarasouls = (props) => {
+  console.log(props);
 
-const ServiceCarasouls = () => {
+  const ImageUrl = Images2[props.index.mainIndex][props.index.subIndex];
+  // Images2[props.index.mainIndex][props.index.subIndex];
+
   return (
     <Swiper
       slidesPerView={1}
       spaceBetween={30}
       loop={true}
+      grabCursor={true}
       pagination={{
         clickable: true,
       }}
-      //   navigation={true}
       modules={[Pagination, Navigation]}
       className="mySwiper h-[20rem]"
     >
-      <SwiperSlide>
+      {ImageUrl.map((item) => {
+        return (
+          <SwiperSlide>
+            <img className="w-full h-[16rem]" src={item.img} />
+          </SwiperSlide>
+        );
+      })}
+      {/* <SwiperSlide>
         <img
           className="w-full h-[16rem]"
-          src="/assets/ServiceCarasouls/img1.png"
+          src="assets/Residential_services/waterproofing/img1.webp"
         />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          className="w-full h-[16rem]"
-          src="/assets/ServiceCarasouls/img2.png"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          className="w-full h-[16rem]"
-          src="/assets/ServiceCarasouls/img3.png"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          className="w-full h-[16rem]"
-          src="/assets/ServiceCarasouls/img4.png"
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img
-          className="w-full h-[16rem]"
-          src="/assets/ServiceCarasouls/img5.png"
-        />
-      </SwiperSlide>
+      </SwiperSlide> */}
+      ;
     </Swiper>
   );
 };
 
-export default ServiceCarasouls;
+export default CardsCarasouls;
