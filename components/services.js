@@ -12,16 +12,16 @@ const Services = () => {
       <div className="lg:grid lg:grid-cols-3 mt-4">
         <div className="card-1 ">
           <div className="flex justify-center">
-            <h1 className="font-bold text-2xl">Relative Service</h1>
+            <h1 className="font-bold text-2xl">Residential Services</h1>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg lg:mx-20 mx-8 mt-4 mb-4">
             <img
-              className="iconw-full"
+              className="w-full"
               src="/download.jpg"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+              {/* <div className="font-bold text-xl mb-2">The Coldest Sunset</div> */}
               <ul className="list-disc text-justify p-3 text-sm text-[#1A4EA2]">
                 <li className="p-1.5">House Construction</li>
                 <li className="p-1.5">Interior designing</li>
@@ -57,7 +57,7 @@ const Services = () => {
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+              {/* <div className="font-bold text-xl mb-2">The Coldest Sunset</div> */}
               <ul className="list-disc text-justify p-3 text-sm text-[#1A4EA2]">
                 <li className="p-1.5">Building Commercial spaces</li>
                 <li className="p-1.5">Remodeling of commercial spaces</li>
@@ -82,7 +82,7 @@ const Services = () => {
         </div>
         <div className="card-1 ">
           <div className="flex justify-center">
-            <h1 className="font-bold text-2xl">Real estate</h1>
+            <h1 className="font-bold text-2xl">Real Estate Services</h1>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg lg:mx-20 mx-8 mt-4 mb-4">
             <img
@@ -91,7 +91,7 @@ const Services = () => {
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+              {/* <div className="font-bold text-xl mb-2">The Coldest Sunset</div> */}
               <ul className="list-disc text-justify p-3 text-sm text-[#1A4EA2]">
                 <li className="p-1.5">Buy/ Sell commercial property</li>
                 <li className="p-1.5">Buy/Sell residential property</li>

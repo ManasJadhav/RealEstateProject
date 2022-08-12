@@ -13,16 +13,16 @@ const Services = () => {
       </div>
 
       <div className="text-center font-bold text-2xl mt-20">
-        <h1>Resident services</h1>
+        <h1>Residential services</h1>
       </div>
       <Residential_Services />
 
       <div className="text-center font-bold text-2xl mt-20">
-        <h1>Commercial</h1>
+        <h1>Commercial services</h1>
       </div>
       <CommercialServices />
       <div className="text-center font-bold text-2xl mt-20">
-        <h1>Real Estate</h1>
+        <h1>Real Estate services</h1>
       </div>
       <RealEstateServices />
       <Footer />
