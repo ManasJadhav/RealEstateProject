@@ -23,8 +23,8 @@ const CardsCarasouls = (props) => {
     >
       {ImageUrl.map((item) => {
         return (
-          <SwiperSlide>
-            <img key={item.id} className="w-full h-[16rem]" src={item.img} />
+          <SwiperSlide key={item.id}>
+            <img className="w-full h-[16rem]" src={item.img} />
           </SwiperSlide>
         );
       })}

@@ -23,14 +23,16 @@ const Navnew = () => {
       <div className="md:items-center md:flex lg:grid lg:grid-cols-3">
         <div className="lg:cols-span-1">
           <div className=" flex items-center justify-between py-3 md:py-5 md:block ml-3 lg:ml-0">
-            <a href="/">
-              {/* <h2 className="text-2xl font-bold text-white">LOGO</h2> */}
-              <img
-                src="/logo.png"
-                className=" h-12 sm:h-12"
-                alt="Flowbite Logo"
-              ></img>
-            </a>
+            <Link href="/">
+              <a>
+                {/* <h2 className="text-2xl font-bold text-white">LOGO</h2> */}
+                <img
+                  src="/logo.png"
+                  className=" h-12 sm:h-12"
+                  alt="Flowbite Logo"
+                ></img>
+              </a>
+            </Link>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border mr-2 lg:mr-0"

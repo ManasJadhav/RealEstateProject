@@ -6,11 +6,11 @@ function AboutUs() {
       </h1>
       <section className="flex flex-col justify-left lg:w-7/12 lg:mx-auto mx-4 my-10 shadow-xl h-fit bg-white rounded-3xl p-8 relative ">
         <h2 className="block font-semibold text-[#0A1F40] text-xl">
-          WE'VE GOT YOU COVERED!
+          WE HAVE GOT YOU COVERED!
         </h2>
         <ul className="list-disc text-justify p-3 text-lg">
           <li className="p-1.5">
-            With our professional handyman service we'll add life and soul to
+            With our professional handyman service we will add life and soul to
             your home by providing stellar services that covers the whole of
             your needs. From clean ups to small/large renovations such as
             plumbing, carpentry, electrical, fabrication, Modular kitchen
@@ -37,7 +37,7 @@ function AboutUs() {
           <li className="p-1.5">
             Other services include Mutual funds/equity investment advice, home
             loan and much much more. Anything that you ever looked for is right
-            at one place, that's here!
+            at one place, that is here!
           </li>
         </ul>
         <div className="flex mt-6">
