@@ -128,15 +128,17 @@ const Navnew = () => {
             </div>
           </div>
         </div>
-        <div className="hidden space-x-2 md:inline-block lg:ml-auto">
-          <button
-            onClick={handleClicked}
-            className="px-6 py-4 text-white bg-[#1a4ea2] rounded-md font-bold shadow hover:bg-white hover:text-[#1a4ea2] hover:border-blue-800 hover:border-2"
-          >
-            <a href="javascript:void(0)" className=""></a>
-            Contact us
-          </button>
-        </div>
+        <Link href="javascript:void(0)">
+          <div className="hidden space-x-2 md:inline-block lg:ml-auto">
+            <button
+              onClick={handleClicked}
+              className="px-6 py-4 text-white bg-[#1a4ea2] rounded-md font-bold shadow hover:bg-white hover:text-[#1a4ea2] hover:border-blue-800 hover:border-2"
+            >
+              <a className=""></a>
+              Contact us
+            </button>
+          </div>
+        </Link>
       </div>
       <ContactUs clicked={clicked} />
     </nav>

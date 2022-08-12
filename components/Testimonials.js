@@ -49,20 +49,6 @@ const items = [
 
 const Testimonials = () => {
   return (
-    // <div className="">
-    //   <div>
-    //     <h1 className="text-center font-bold text-3xl mb-10">Testimonials</h1>
-    //   </div>
-    //   <div className="w-4/5 m-auto rounded-lg">
-    //     <AliceCarousel
-    //       mouseTracking
-    //       items={items}
-    //       responsive={responsive}
-    //       controlsStrategy="alternate"
-    //       // activeIndex={activeIndex}
-    //     />
-    //   </div>
-    // </div>
     <div className="">
       <div>
         <h1 className="text-center font-bold text-3xl mb-10">Testimonials</h1>

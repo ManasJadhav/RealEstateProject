@@ -50,7 +50,7 @@ const Services = () => {
           <div className="flex justify-center">
             <h1 className="font-bold text-2xl">Commercial Services</h1>
           </div>
-          <div class="rounded-2xl overflow-hidden shadow-lg lg:mx-20 mx-8 mt-4 mb-4">
+          <div className="rounded-2xl overflow-hidden shadow-lg lg:mx-20 mx-8 mt-4 mb-4">
             <img
               className="w-full"
               src="/download.jpg"
