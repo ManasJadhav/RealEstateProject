@@ -12,30 +12,35 @@ const responsive = {
 const items = [
   <div className="item" data-value="1">
     <TestimonialBox
+      key={1}
       desc="Ankit Mehta of Key Estate Services has done at least 10 kitchens for us so far and we are comfortable with his ethical approach and satisfied with his service and delivery  vs our expectations ( which are quite high).Safe agency to work with."
       name="jayesh patil"
     />
   </div>,
   <div className="item" data-value="2">
     <TestimonialBox
+      key={2}
       desc="Excellent execution and design of our kitchen,wardrobe and tv unit by Ankit from Key Estate Services.They were very professional, used material of high quality as we wanted, finished the job on time and within the agreed budget. Thank you and I would strongly recommend them."
       name="Sameer Sabharwal"
     />
   </div>,
   <div className="item" data-value="3">
     <TestimonialBox
+      key={3}
       desc="Clean and neat job!! Will surely recommend and utilize your services in all our future projects."
       name="Abbas kadiwala"
     />
   </div>,
   <div className="item" data-value="4">
     <TestimonialBox
+      key={4}
       desc="Professional and punctual services, highly recommended."
       name="Raunak Shah"
     />
   </div>,
   <div className="item" data-value="5">
     <TestimonialBox
+      key={5}
       desc="Ankit from Key Estate Services is a very  friendly kitchen designer.I have recently done a modular kitchen with him.Very cool and modern design approach along with professional service - overall great experience and a total value for money.I will surely recommend him if you are planning a new kitchen."
       name="Abhay Nipane"
     />

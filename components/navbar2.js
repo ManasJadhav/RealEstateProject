@@ -101,16 +101,18 @@ const Navnew = () => {
                   Our Services
                 </li>
               </Link>
-              <li
-                onClick={() => setToggle(3)}
-                className={
-                  toggle === 3
-                    ? "bg-body text-white py-3 rounded-md lg:mr-0 mr-2 px-6 cursor-pointer"
-                    : "bg-white text-black py-3 rounded lg:mr-0 mr-2 px-6 cursor-pointer"
-                }
-              >
-                <a href="/aboutdummy">About US</a>
-              </li>
+              <Link href="/aboutdummy">
+                <li
+                  onClick={() => setToggle(3)}
+                  className={
+                    toggle === 3
+                      ? "bg-body text-white py-3 rounded-md lg:mr-0 mr-2 px-6 cursor-pointer"
+                      : "bg-white text-black py-3 rounded lg:mr-0 mr-2 px-6 cursor-pointer"
+                  }
+                >
+                  About US
+                </li>
+              </Link>
             </ul>
 
             <div className="mt-5 space-y-2 lg:hidden md:inline-block mb-8 px-2 ">

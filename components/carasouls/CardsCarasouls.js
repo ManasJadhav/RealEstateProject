@@ -6,8 +6,6 @@ import { Pagination, Navigation } from "swiper";
 import Images2 from "../imageData/image2";
 
 const CardsCarasouls = (props) => {
-  console.log(props);
-
   const ImageUrl = Images2[props.index.mainIndex][props.index.subIndex];
   // Images2[props.index.mainIndex][props.index.subIndex];
 
@@ -26,7 +24,7 @@ const CardsCarasouls = (props) => {
       {ImageUrl.map((item) => {
         return (
           <SwiperSlide>
-            <img className="w-full h-[16rem]" src={item.img} />
+            <img key={item.id} className="w-full h-[16rem]" src={item.img} />
           </SwiperSlide>
         );
       })}
