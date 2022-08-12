@@ -6,14 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p $PORT",
-    "start:dev":"next start" ,
-    "start:prod":"next start -p 80",
+    "start:dev": "next start",
+    "start:prod": "next start -p 80",
     "lint": "next lint"
   },
   "dependencies": {
     "@coreui/coreui": "^4.2.0",
     "@coreui/react": "^4.3.0",
     "@next-tools/dynamic": "^0.0.11",
+    "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.0",
     "next": "12.2.0",
     "react": "18.2.0",
