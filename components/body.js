@@ -9,15 +9,15 @@ function Body() {
         <img src="/body-img2.png" className="invisible lg:w-full w-1/2"></img>
         <div className="lg:absolute lg:top-32 lg:left-11 lg:bottom-0 bottom-8 lg:pl-8">
           <h1 className="text-white font-navbar lg:text-5xl text-3xl w-fit text-justify">
-            Key Estate<br></br>Management Limited
+            Key Estate Services
           </h1>
           <div className="text-justify justify-between lg:w-fit">
             <p className="text-white text-justify font-navbar text-lg my-4 mx-0 ">
               is a network of well connected and heavily specialized
               proffessionals with over decades of experience that have come
               together to provide stellar estate management services on demand
-              for those willing to avail the same.Recognizing the need for speed
-              and quality service, our vast network promises quick and
+              for those willing to avail the same. Recognizing the need for
+              speed and quality service, our vast network promises quick and
               comprehensive aid of excellent caliber that only seasoned
               professionals achieve through their collaboration
             </p>

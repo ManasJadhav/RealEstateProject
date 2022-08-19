@@ -103,7 +103,7 @@ const Navnew = () => {
                   Our Services
                 </li>
               </Link>
-              <Link href="/aboutdummy">
+              {/* <Link href="#aboutHome">
                 <li
                   onClick={() => setToggle(3)}
                   className={
@@ -114,7 +114,7 @@ const Navnew = () => {
                 >
                   About US
                 </li>
-              </Link>
+              </Link> */}
             </ul>
 
             <div className="mt-5 space-y-2 lg:hidden md:inline-block mb-8 px-2 ">

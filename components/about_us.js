@@ -1,6 +1,9 @@
 function AboutUs() {
   return (
-    <div className="w-full flex flex-col justify-center lg:mx-auto my-28 font-navbar">
+    <div
+      id="aboutHome"
+      className="w-full flex flex-col justify-center lg:mx-auto my-28 font-navbar"
+    >
       <h1 className="flex justify-center font-bold text-3xl text-[#0A1F40] m-1/2">
         About Us
       </h1>
@@ -35,9 +38,8 @@ function AboutUs() {
             Want to buy/sell a property? We shall serve you.
           </li>
           <li className="p-1.5">
-            Other services include Mutual funds/equity investment advice, home
-            loan and much much more. Anything that you ever looked for is right
-            at one place, that is here!
+            Anything that you ever looked for is right at one place, that is
+            here!
           </li>
         </ul>
         <div className="flex mt-6">
