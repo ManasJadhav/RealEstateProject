@@ -17,7 +17,7 @@ const Sendmail = () => {
     e.target.reset();
   }
   return (
-    <div>
+    <div id="popupBook">
       <div className=" bg-[#0C2D65] lg:w-fit  text-white lg:px-40 px-4 py-20 rounded-2xl lg:ml-auto mx-2 lg:mr-auto mb-4 text-center">
         <div className="">
           <h1 className="lg:text-4xl text-2xl font-semibold ">

@@ -1,5 +1,6 @@
 // import Slider from "./Slider/slider.js";
 
+import Link from "next/link";
 import HomeCarasouls from "./carasouls/HomeCarasouls";
 
 function Body() {
@@ -24,7 +25,7 @@ function Body() {
           </div>
           <div className="flex lg:mt-20 mt-14 ">
             <button className="w-36 h-11 text-[#072960] bg-white font-navbar font-medium text-lg rounded-full">
-              Book Now
+              <Link href="#popupBook">Book Now</Link>
             </button>
             <button className="flex items-center justify-center ml-6 w-36 h-11 text-white bg-[#072960] border-2 border-solid border-white font-navbar text-lg rounded-full">
               <svg
