@@ -13,7 +13,7 @@ const items = [
   <div key={1} className="item" data-value="1">
     <TestimonialBox
       desc="Ankit Mehta of Key Estate Services has done at least 10 kitchens for us so far and we are comfortable with his ethical approach and satisfied with his service and delivery  vs our expectations ( which are quite high).Safe agency to work with."
-      name="jayesh patil"
+      name="Sandy Shah"
     />
   </div>,
   <div key={2} className="item" data-value="2">

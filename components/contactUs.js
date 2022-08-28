@@ -42,7 +42,7 @@ const ContactUs = (props) => {
           </svg>
           <button>
             <a
-              href="mailto:jayeshspatil1602@gmail.com?Subject=Hello%20again"
+              href="mailto:reachshilpagopinath@gmail.com?Subject=Hello%20again"
               className="px-2"
             >
               click to send mail
@@ -65,7 +65,7 @@ const ContactUs = (props) => {
             />
           </svg>
           <a>
-            <ReactWhatsapp number="9769819871" message="">
+            <ReactWhatsapp number="8975319545" message="">
               <button>
                 <span className="font-bold text-green-600 px-2">Whatsapp</span>
                 Us
@@ -75,11 +75,11 @@ const ContactUs = (props) => {
         </div>
         <div className="flex  hover:bg-body hover:text-white w-full rounded-lg px-2 text-blue-600  font-bold py-2">
           <h3>contact us on : </h3>
-          <p className="px-2"> 9637585522</p>
+          <p className="px-2"> 8975319545</p>
         </div>
-        <div className="flex  hover:bg-body hover:text-white w-fit rounded-lg px-2 text-blue-600  font-bold py-2">
-          <h3>Mail us on : </h3>
-          <p className="px-2">xyx@gmail.com</p>
+        <div className="grid col-span-4 hover:bg-body hover:text-white w-fit rounded-lg px-2 text-blue-600  font-bold py-2">
+          <h3 className="col-span-1">Mail us :</h3>
+          <p className="">reachshilpagopinath@gmail.com</p>
         </div>
       </div>
     </div>

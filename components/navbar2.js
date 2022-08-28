@@ -25,7 +25,6 @@ const Navnew = () => {
           <div className=" flex items-center justify-between py-3 md:py-5 md:block ml-3 lg:ml-0">
             <Link href="/">
               <a>
-                {/* <h2 className="text-2xl font-bold text-white">LOGO</h2> */}
                 <img
                   src="/logo.png"
                   className=" h-12 sm:h-12"
@@ -36,7 +35,11 @@ const Navnew = () => {
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border mr-2 lg:mr-0"
-                onClick={() => setNavbar(!navbar)}
+                onClick={() => {
+                  setNavbar(!navbar);
+                  handleClicked();
+                  setClicked(false);
+                }}
               >
                 {navbar ? (
                   <svg
@@ -103,18 +106,6 @@ const Navnew = () => {
                   Our Services
                 </li>
               </Link>
-              {/* <Link href="#aboutHome">
-                <li
-                  onClick={() => setToggle(3)}
-                  className={
-                    toggle === 3
-                      ? "bg-body text-white py-3 rounded-md lg:mr-0 mr-2 px-6 cursor-pointer"
-                      : "bg-white text-black py-3 rounded lg:mr-0 mr-2 px-6 cursor-pointer"
-                  }
-                >
-                  About US
-                </li>
-              </Link> */}
             </ul>
 
             <div className="mt-5 space-y-2 lg:hidden md:inline-block mb-8 px-2 ">
@@ -122,9 +113,15 @@ const Navnew = () => {
                 onClick={handleClicked}
                 className="inline-block  w-full py-2 text-center text-white bg-[#1a4ea2] rounded-full shadow hover:bg-white hover:text-[#1a4ea2] hover:border-blue-800 hover:border-2"
               >
-                <a href="javascript:void(0)" className="">
-                  Contact us
-                </a>
+                {!clicked ? (
+                  <a href="javascript:void(0)" className="">
+                    Contact us
+                  </a>
+                ) : (
+                  <a href="javascript:void(0)" className="">
+                    Close
+                  </a>
+                )}
               </button>
               <ContactUs />
             </div>
@@ -137,7 +134,15 @@ const Navnew = () => {
               className="px-6 py-4 text-white bg-[#1a4ea2] rounded-md font-bold shadow hover:bg-white hover:text-[#1a4ea2] hover:border-blue-800 hover:border-2"
             >
               <a className=""></a>
-              Contact us
+              {!clicked ? (
+                <a href="javascript:void(0)" className="">
+                  Contact us
+                </a>
+              ) : (
+                <a href="javascript:void(0)" className="">
+                  Close
+                </a>
+              )}
             </button>
           </div>
         </Link>
