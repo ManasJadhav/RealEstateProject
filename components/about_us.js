@@ -1,4 +1,13 @@
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useState } from "react";
+
 function AboutUs() {
+  const [text, setText] = useState("manas");
+  const notify = () => {
+    toast("🔗 Link to be shared copied !");
+  };
+
   return (
     <div
       id="aboutHome"
@@ -43,10 +52,16 @@ function AboutUs() {
           </li>
         </ul>
         <div className="flex mt-6">
-          <button className="w-32 h-10 text-white bg-[#072960] font-navbar font-light text-base rounded-full">
+          {/* <button className="w-32 h-10 text-white bg-[#072960] font-navbar font-light text-base rounded-full">
             Contact us
-          </button>
-          <button className="flex items-center justify-center ml-6 w-32 h-10 text-[#072960] bg-white border-2 border-solid border-[#072960] font-navbar text-base rounded-full">
+          </button> */}
+          <button
+            onClick={async () => {
+              await navigator.clipboard.writeText(text);
+              notify();
+            }}
+            className="flex items-center justify-center ml-6 w-32 h-10 text-[#072960] bg-white border-2 border-solid border-[#072960] font-navbar text-base rounded-full hover:scale-105"
+          >
             <svg
               className="w-6 h-6 mr-3"
               fill="none"

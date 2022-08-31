@@ -10,7 +10,7 @@ const TestimonialBox = (props) => {
           ></img>
         </div>
         <div className="lg:w-80 lg:ml-10 lg:mt-0 mt-3">
-          <p className="">" {props.desc} "</p>
+          <p>{props.desc}</p>
           <div className="lg:flex justify-end">
             <h4 className="hidden lg:block">-</h4>
             <h4 className="pl-2 lg:mt-0 mt-4 font-bold">{props.name}</h4>

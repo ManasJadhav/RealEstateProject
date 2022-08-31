@@ -1,8 +1,11 @@
 import emailjs from "@emailjs/browser";
 import React from "react";
 import { useRef } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Sendmail = () => {
+  const notify = () => {};
   const form = useRef();
   function MainSender(e) {
     e.preventDefault();
@@ -15,6 +18,8 @@ const Sendmail = () => {
     );
 
     e.target.reset();
+
+    toast.success("📫 Mail sent successfully !");
   }
   return (
     <div id="popupBook">
@@ -30,11 +35,12 @@ const Sendmail = () => {
         <form onSubmit={MainSender} ref={form}>
           <div className="lg:flex rounded-md lg:bg-white w-fit lg:ml-auto ml-8 lg:mr-auto mr-0 lg:mt-20 mt-8  py-2">
             <input
+              required
               type="email"
               name="email_input"
               size={30}
               placeholder="type your email address"
-              className="rounded-md px-4  outline-none text-black box-border lg:h-100 h-10 lg:ml-0 "
+              className="rounded-md px-4  outline-none text-black box-border lg:h-100 h-10 lg:ml-0 ml-4"
             />
             <div className="lg:px-2 lg:mt-0 mt-4">
               <button className="bg-white hover:bg-[#072960] text-black lg:hover:text-white hover:text-white border-2 border-blue-600 lg:p-2 font-bold rounded-md lg:px-4 px-8 py-3">

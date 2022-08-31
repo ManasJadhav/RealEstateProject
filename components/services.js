@@ -23,8 +23,8 @@ const Services = () => {
             <div className="px-6 py-4">
               {/* <div className="font-bold text-xl mb-2">The Coldest Sunset</div> */}
               <ul className="list-disc text-justify p-3 text-sm text-[#1A4EA2]">
-                <li className="p-1.5">Buy/Sell residential property</li>
-                <li className="p-1.5">Buy/ Sell commercial property</li>
+                <li className="p-1.5">Buy/Sell Residential Property</li>
+                <li className="p-1.5">Buy/Sell Commercial Property</li>
               </ul>
             </div>
             <div className="flex justify-end pt-4 pb-0 px-0 cursor-pointer">

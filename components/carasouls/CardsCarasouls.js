@@ -28,12 +28,6 @@ const CardsCarasouls = (props) => {
           </SwiperSlide>
         );
       })}
-      {/* <SwiperSlide>
-        <img
-          className="w-full h-[16rem]"
-          src="assets/Residential_services/waterproofing/img1.webp"
-        />
-      </SwiperSlide> */}
       ;
     </Swiper>
   );

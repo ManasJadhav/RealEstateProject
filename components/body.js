@@ -1,9 +1,16 @@
 // import Slider from "./Slider/slider.js";
 
 import Link from "next/link";
+import { useState } from "react";
 import HomeCarasouls from "./carasouls/HomeCarasouls";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Body() {
+  const [text, setText] = useState("manas");
+  const notify = () => {
+    toast("🔗 Link to be shared copied !");
+  };
   return (
     <div className="bg-body bg-[url('/body-img2.png')] lg:grid lg:grid-cols-3 lg:pt-20 min-h-screen ">
       <div className=" lg:col-span-1 bg-no-repeat relative lg:pb-0 pb-36 lg:p-0 p-8 lg:mt-18 lg:h-1/2">
@@ -24,10 +31,16 @@ function Body() {
             </p>
           </div>
           <div className="flex lg:mt-20 mt-14 ">
-            <button className="w-36 h-11 text-[#072960] bg-white font-navbar font-medium text-lg rounded-full">
+            <button className="w-36 h-11 text-[#072960] bg-white font-navbar font-medium text-lg rounded-full hover:scale-105">
               <Link href="#popupBook">Book Now</Link>
             </button>
-            <button className="flex items-center justify-center ml-6 w-36 h-11 text-white bg-[#072960] border-2 border-solid border-white font-navbar text-lg rounded-full">
+            <button
+              onClick={async () => {
+                await navigator.clipboard.writeText(text);
+                notify();
+              }}
+              className="flex items-center justify-center ml-6 w-36 h-11 text-white bg-[#072960] border-2 border-solid border-white font-navbar text-lg rounded-full hover:scale-105"
+            >
               <svg
                 className="w-6 h-6 mr-3"
                 fill="none"
@@ -44,6 +57,18 @@ function Body() {
               </svg>
               Share
             </button>
+            <ToastContainer
+              position="top-right"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="dark"
+            />
           </div>
         </div>
       </div>

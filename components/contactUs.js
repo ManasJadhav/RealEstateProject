@@ -11,19 +11,6 @@ const ContactUs = (props) => {
           : "absolute hidden top-20"
       }
     >
-      {/* <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5 ml-auto "
-        viewBox="0 0 20 20"
-        fill="currentColor"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-          clip-rule="evenodd"
-        />
-      </svg> */}
-      {/* <h1 className="font-bold text-2xl text-center ">Contact Us..</h1> */}
       <div className="">
         <div className="flex  hover:bg-body hover:text-white w-full rounded-lg px-2 text-blue-600  font-bold py-2 ">
           <svg
@@ -42,7 +29,7 @@ const ContactUs = (props) => {
           </svg>
           <button>
             <a
-              href="mailto:jayeshspatil1602@gmail.com?Subject=Hello%20again"
+              href="mailto:reachshilpagopinath@gmail.com?Subject=Hello%20again"
               className="px-2"
             >
               Click to send mail
@@ -65,7 +52,7 @@ const ContactUs = (props) => {
             />
           </svg>
           <a>
-            <ReactWhatsapp number="9769819871" message="">
+            <ReactWhatsapp number="8975319545" message="">
               <button>
                 <span className="font-bold text-green-600 px-2">Whatsapp</span>
                 Us
@@ -77,9 +64,9 @@ const ContactUs = (props) => {
           <h3>Contact us on : </h3>
           <p className="px-2">8975319545</p>
         </div>
-        <div className="  hover:bg-body hover:text-white w-fit rounded-lg px-2 text-blue-600  font-bold py-2">
-          <h3>Mail us on : </h3>
-          <p className="px-0">reachshilpagopinath@gmail.com</p>
+        <div className="grid col-span-4 hover:bg-body hover:text-white w-fit rounded-lg px-2 text-blue-600  font-bold py-2">
+          <h3 className="col-span-1">Mail us :</h3>
+          <p className="">reachshilpagopinath@gmail.com</p>
         </div>
       </div>
     </div>
