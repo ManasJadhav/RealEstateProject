@@ -4,7 +4,8 @@ const TestimonialBox = (props) => {
       <div className="lg:flex lg:items-center p-5">
         <div className="w-20 lg:hidden bg-colorShadow h-20 rounded-full ml-auto mr-auto">
           <img
-            src="/testimonial_icon.png"
+            // src="/testimonial_icon.png"
+            src="profile.png"
             className="ml-auto mr-auto mt-auto "
           ></img>
         </div>
@@ -17,7 +18,8 @@ const TestimonialBox = (props) => {
         </div>
         <div className="hidden lg:block w-20 bg-colorShadow h-20 rounded-full ml-10">
           <img
-            src="/testimonial_icon.png"
+            // src="/testimonial_icon.png"
+            src="profile.png"
             className="ml-auto mr-auto mt-auto "
           ></img>
         </div>

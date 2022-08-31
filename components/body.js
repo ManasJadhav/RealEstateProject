@@ -14,7 +14,7 @@ function Body() {
           </h1>
           <div className="text-justify justify-between lg:w-fit">
             <p className="text-white text-justify font-navbar text-lg my-4 mx-0 ">
-              is a network of well connected and heavily specialized
+              Is a network of well connected and heavily specialized
               proffessionals with over decades of experience that have come
               together to provide stellar estate management services on demand
               for those willing to avail the same. Recognizing the need for

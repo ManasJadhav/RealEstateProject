@@ -24,7 +24,7 @@ const Sendmail = () => {
             Find the pefect Home service{" "}
           </h1>
           <p className="mt-8 text-md lg:text-lg">
-            send your email addrsses to get in touch
+            Send your email addrsses to get in touch
           </p>
         </div>
         <form onSubmit={MainSender} ref={form}>
@@ -38,7 +38,7 @@ const Sendmail = () => {
             />
             <div className="lg:px-2 lg:mt-0 mt-4">
               <button className="bg-white hover:bg-[#072960] text-black lg:hover:text-white hover:text-white border-2 border-blue-600 lg:p-2 font-bold rounded-md lg:px-4 px-8 py-3">
-                <span className="text-md">send</span>
+                <span className="text-md">Send</span>
               </button>
             </div>
           </div>

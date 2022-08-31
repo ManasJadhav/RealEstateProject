@@ -45,7 +45,7 @@ const ContactUs = (props) => {
               href="mailto:jayeshspatil1602@gmail.com?Subject=Hello%20again"
               className="px-2"
             >
-              click to send mail
+              Click to send mail
             </a>
           </button>
         </div>
@@ -74,12 +74,12 @@ const ContactUs = (props) => {
           </a>
         </div>
         <div className="flex  hover:bg-body hover:text-white w-full rounded-lg px-2 text-blue-600  font-bold py-2">
-          <h3>contact us on : </h3>
-          <p className="px-2"> 9637585522</p>
+          <h3>Contact us on : </h3>
+          <p className="px-2">8975319545</p>
         </div>
-        <div className="flex  hover:bg-body hover:text-white w-fit rounded-lg px-2 text-blue-600  font-bold py-2">
+        <div className="  hover:bg-body hover:text-white w-fit rounded-lg px-2 text-blue-600  font-bold py-2">
           <h3>Mail us on : </h3>
-          <p className="px-2">xyx@gmail.com</p>
+          <p className="px-0">reachshilpagopinath@gmail.com</p>
         </div>
       </div>
     </div>

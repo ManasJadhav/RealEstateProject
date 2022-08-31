@@ -2,10 +2,10 @@ const Footer = () => {
   return (
     <div className="bg-[#072960] lg:grid lg:grid-cols-6 text-white p-14 mt-8">
       <div className="col-span-2 lg:px-8 ">
-        <h1 className="font-bold text-lg">key estate management limited</h1>
+        <h1 className="font-bold text-lg">Key Estate Services</h1>
         <div className="mt-4 ">
           <p>
-            is a network of well connected and heavily specialized
+            Is a network of well connected and heavily specialized
             proffessionals with over decades of experience that have come
             together to provide stellar estate management services on demand for
             those willing to avail the same. Recognizing the need for speed and
@@ -16,9 +16,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
-        <h1 className="font-bold text-lg ">service </h1>
+        <h1 className="font-bold text-lg ">Service </h1>
         <div className="mt-4 ">
-          <h3 className="">plumbing</h3>
+          <h3 className="">Plumbing</h3>
           <h3 className="mt-3">Carpentry</h3>
           <h3 className="mt-3">Electric</h3>
           <h3 className="mt-3">Fabrication</h3>
@@ -28,24 +28,24 @@ const Footer = () => {
       <div className="lg:px-4 mt-10 lg:mt-0">
         <h1 className="font-bold text-lg">More</h1>
         <div className="mt-4 ">
-          <h3 className="">waterprofooing</h3>
-          <h3 className="mt-3">outdoor modeling</h3>
-          <h3 className="mt-3">tile setting</h3>
-          <h3 className="mt-3">floor laying</h3>
+          <h3 className="">Waterprofooing</h3>
+          <h3 className="mt-3">Outdoor modeling</h3>
+          <h3 className="mt-3">Tile Setting</h3>
+          <h3 className="mt-3">Floor Laying</h3>
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
-        <h1 className="font-bold text-lg">company</h1>
+        <h1 className="font-bold text-lg">Company</h1>
         <div className="mt-4 ">
           <h3 className="">About</h3>
-          <h3 className="mt-3">contact us</h3>
+          <h3 className="mt-3">Contact Us</h3>
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
         <h1 className="font-bold text-lg">Help</h1>
         <div className="mt-4 ">
           <h3 className="">FAQ</h3>
-          <h3 className="mt-3">Help support</h3>
+          <h3 className="mt-3">Help Support</h3>
         </div>
       </div>
     </div>
