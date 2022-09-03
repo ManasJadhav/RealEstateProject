@@ -17,8 +17,8 @@ const Services = () => {
       </div>
       <RealEstateServices />
 
-      <div className="text-center font-bold text-2xl mt-20">
-        <h1>Residential Services</h1>
+      <div className="text-center font-bold text-2xl mt-20" id="residential">
+        <h1 >Residential Services</h1>
       </div>
       <Residential_Services />
 

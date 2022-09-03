@@ -1,8 +1,14 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div className="bg-[#072960] lg:grid lg:grid-cols-6 text-white p-14 mt-8">
       <div className="col-span-2 lg:px-8 ">
-        <h1 className="font-bold text-lg">Key Estate Services</h1>
+        <Link href="/">
+          <h1 className="font-bold text-lg cursor-pointer">
+            Key Estate Services
+          </h1>
+        </Link>
         <div className="mt-4 ">
           <p>
             Is a network of well connected and heavily specialized
@@ -16,26 +22,51 @@ const Footer = () => {
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
-        <h1 className="font-bold text-lg ">Service </h1>
+        <Link href="/service">
+          <a className="font-bold text-lg ">Service </a>
+        </Link>
         <div className="mt-4 ">
-          <h3 className="">Plumbing</h3>
-          <h3 className="mt-3">Carpentry</h3>
-          <h3 className="mt-3">Electric</h3>
-          <h3 className="mt-3">Fabrication</h3>
-          <h3 className="mt-3">Leakage</h3>
+          <Link href="/service/#residential">
+            <h3 className="cursor-pointer">Plumbing</h3>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Carpentry</h3>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Electric</h3>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Fabrication</h3>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Leakage</h3>
+          </Link>
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
-        <h1 className="font-bold text-lg">More</h1>
+        <Link href="/service/#residential">
+          <a className="font-bold text-lg">More</a>
+        </Link>
         <div className="mt-4 ">
-          <h3 className="">Waterprofooing</h3>
-          <h3 className="mt-3">Outdoor modeling</h3>
-          <h3 className="mt-3">Tile Setting</h3>
-          <h3 className="mt-3">Floor Laying</h3>
+          <Link href="/service/#residential">
+            <a className="cursor-pointer">Waterprofooing</a>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Outdoor modeling</h3>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Tile Setting</h3>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Floor Laying</h3>
+          </Link>
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
-        <h1 className="font-bold text-lg">Company</h1>
+        <Link href="/">
+          <a className="font-bold text-lg">Company</a>
+        </Link>
+
         <div className="mt-4 ">
           <h3 className="">About</h3>
           <h3 className="mt-3">Contact Us</h3>
