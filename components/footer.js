@@ -72,13 +72,13 @@ const Footer = () => {
           <h3 className="mt-3">Contact Us</h3>
         </div>
       </div>
-      <div className="lg:px-4 mt-10 lg:mt-0">
+      {/* <div className="lg:px-4 mt-10 lg:mt-0">
         <h1 className="font-bold text-lg">Help</h1>
         <div className="mt-4 ">
           <h3 className="">FAQ</h3>
           <h3 className="mt-3">Help Support</h3>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
