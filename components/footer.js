@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#072960] lg:grid lg:grid-cols-6 text-white p-14 mt-8">
-      <div className="col-span-2 lg:px-8 ">
+    <div className="bg-[#072960] lg:grid lg:grid-cols-5 text-white p-14 mt-8 ">
+      <div className="col-span-2 lg:px-8 lg:ml-20">
         <Link href="/">
           <h1 className="font-bold text-lg cursor-pointer">
             Key Estate Services
@@ -27,19 +27,22 @@ const Footer = () => {
         </Link>
         <div className="mt-4 ">
           <Link href="/service/#residential">
-            <h3 className="cursor-pointer">Plumbing</h3>
+            <h3 className="cursor-pointer">House Construction</h3>
           </Link>
           <Link href="/service/#residential">
-            <h3 className="mt-3 cursor-pointer">Carpentry</h3>
+            <h3 className="mt-3 cursor-pointer">Interior designing</h3>
           </Link>
           <Link href="/service/#residential">
-            <h3 className="mt-3 cursor-pointer">Electric</h3>
+            <h3 className="mt-3 cursor-pointer">Waterproofing</h3>
           </Link>
           <Link href="/service/#residential">
-            <h3 className="mt-3 cursor-pointer">Fabrication</h3>
+            <h3 className="mt-3 cursor-pointer">Modular kitchen</h3>
           </Link>
           <Link href="/service/#residential">
-            <h3 className="mt-3 cursor-pointer">Leakage</h3>
+            <h3 className="mt-3 cursor-pointer">Painting</h3>
+          </Link>
+          <Link href="/service/#residential">
+            <h3 className="mt-3 cursor-pointer">Pest Control</h3>
           </Link>
         </div>
       </div>
@@ -49,16 +52,20 @@ const Footer = () => {
         </Link>
         <div className="mt-4 ">
           <Link href="/service/#residential">
-            <a className="cursor-pointer">Waterprofooing</a>
+            <a className="cursor-pointer">Building Commercial spaces</a>
           </Link>
           <Link href="/service/#residential">
-            <h3 className="mt-3 cursor-pointer">Outdoor modeling</h3>
+            <h3 className="mt-3 cursor-pointer">
+              Remodeling of commercial spaces
+            </h3>
           </Link>
           <Link href="/service/#residential">
-            <h3 className="mt-3 cursor-pointer">Tile Setting</h3>
+            <h3 className="mt-3 cursor-pointer">Contractor all risk policy</h3>
           </Link>
           <Link href="/service/#residential">
-            <h3 className="mt-3 cursor-pointer">Floor Laying</h3>
+            <h3 className="mt-3 cursor-pointer">
+              Theft and burglary insurance
+            </h3>
           </Link>
         </div>
       </div>
@@ -69,7 +76,6 @@ const Footer = () => {
 
         <div className="mt-4 ">
           <h3 className="">About</h3>
-          <h3 className="mt-3">Contact Us</h3>
         </div>
       </div>
       {/* <div className="lg:px-4 mt-10 lg:mt-0">
