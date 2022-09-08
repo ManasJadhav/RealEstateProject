@@ -103,7 +103,7 @@ const Navnew = () => {
                       : "bg-white text-black py-3 rounded lg:mr-0 mr-2 px-6 cursor-pointer"
                   }
                 >
-                  Our Services
+                  AboutUs
                 </li>
               </Link>
             </ul>
@@ -153,7 +153,7 @@ const Navnew = () => {
         gradientWidth={100}
         direction="right"
         pauseOnHover={true}
-        className="z-10 bg-[#072960] text-white"
+        className="z-10 bg-[#072960] text-white h-10 text-xl font-bold"
       >
         <Link className="font-bold text-xl tracking-widest" href="/service">
           -------- Buy/Sell Residential Property and Commercial Properties

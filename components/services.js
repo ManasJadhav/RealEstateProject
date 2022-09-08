@@ -1,6 +1,6 @@
 import { Router, useRouter } from "next/router";
 
-const Services = () => {
+const HomeServices = () => {
   const router = useRouter();
   return (
     <div className="w-full   my-28 font-navbar overflow-hidden">
@@ -30,7 +30,7 @@ const Services = () => {
             <div className="flex justify-end pt-4 pb-0 px-0 cursor-pointer">
               <span
                 onClick={() => {
-                  router.push("/service");
+                  router.push("/");
                 }}
                 className="inline-block items-center justify-center pl-0 pt-2.5  w-40 h-10 rounded-tl-2xl bg-[#04275D]   py-1  text-sm font-semibold text-white text-center"
               >
@@ -66,7 +66,7 @@ const Services = () => {
             <div className="flex justify-end pt-4 pb-0 px-0 cursor-pointer">
               <span
                 onClick={() => {
-                  router.push("/service");
+                  router.push("/");
                 }}
                 className="inline-block items-center justify-center pl-0 pt-2.5  w-40 h-10 rounded-tl-2xl bg-[#04275D]   py-1  text-sm font-semibold text-white text-center"
               >
@@ -100,7 +100,7 @@ const Services = () => {
             <div className="flex justify-end pt-4 pb-0 px-0 cursor-pointer">
               <span
                 onClick={() => {
-                  router.push("/service");
+                  router.push("/");
                 }}
                 className="inline-block items-center justify-center pl-0 text-center pt-2.5  w-40 h-10 rounded-tl-2xl bg-[#04275D]   py-1  text-sm font-semibold text-white"
               >
@@ -114,4 +114,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default HomeServices;

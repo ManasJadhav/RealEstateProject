@@ -1,31 +1,56 @@
 import Head from "next/head";
-import Image from "next/image";
-import Body from "../components/body";
-import AboutUs from "../components/about_us";
-import Services from "../components/services";
-import Sendmail from "../components/sendmail";
-import Works from "../components/works";
-import Footer from "../components/footer";
+// import Image from "next/image";
+// import Body from "../components/body";
+// import AboutUs from "../components/about_us";
+// import Services from "../components/services";
+// import Sendmail from "../components/sendmail";
+// import Works from "../components/works";
+// import Footer from "../components/footer";
+// import Navnew from "../components/navbar2";
+// import WhyUS from "../components/WhyUs";
+// import Testimonials from "../components/Testimonials";
+// import React from "react";
+// import Marquee from "react-fast-marquee";
+
 import Navnew from "../components/navbar2";
-import WhyUS from "../components/WhyUs";
-import Testimonials from "../components/Testimonials";
-import React from "react";
-import Marquee from "react-fast-marquee";
+import Footer from "../components/footer";
+import ServiceCarasouls from "../components/carasouls/ServiceCarasouls";
+import Residential_Services from "../components/ServicePageComponents/Residential_Services";
+import CommercialServices from "../components/ServicePageComponents/commercialServices";
+import RealEstateServices from "../components/ServicePageComponents/realEstateServices";
 
 export default function Home() {
   return (
     <div className="m-0">
-      <Navnew />
-      
-      {/* <Navbar /> */}
+      {/* <Navnew />
       <Body></Body>
       <AboutUs></AboutUs>
       <Services />
-
       <Works />
       <WhyUS />
       <Testimonials />
       <Sendmail />
+      <Footer /> */}
+      <Navnew />
+      <div className="p-8 relative top-20">
+        <ServiceCarasouls />
+      </div>
+
+      <div className="text-center font-bold text-2xl mt-20" id="buysell">
+        <h1>Buy/Sell Commercial And Residential Properties</h1>
+      </div>
+      <RealEstateServices />
+
+      <div className="text-center font-bold text-2xl mt-20" id="residential">
+        <h1>Residential Services</h1>
+      </div>
+      <Residential_Services />
+
+      <div className="text-center font-bold text-2xl mt-20">
+        <h1>Commercial Services</h1>
+      </div>
+      <CommercialServices />
+
       <Footer />
       <Head>
         <title>Key Estate Services</title>

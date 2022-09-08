@@ -22,47 +22,47 @@ const Footer = () => {
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
-        <Link href="/service">
+        <Link href="/">
           <a className="font-bold text-lg ">Service </a>
         </Link>
         <div className="mt-4 ">
-          <Link href="/service/#residential">
+          <Link href="/#residential">
             <h3 className="cursor-pointer">House Construction</h3>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#residential">
             <h3 className="mt-3 cursor-pointer">Interior designing</h3>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#residential">
             <h3 className="mt-3 cursor-pointer">Waterproofing</h3>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#residential">
             <h3 className="mt-3 cursor-pointer">Modular kitchen</h3>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#residential">
             <h3 className="mt-3 cursor-pointer">Painting</h3>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#residential">
             <h3 className="mt-3 cursor-pointer">Pest Control</h3>
           </Link>
         </div>
       </div>
       <div className="lg:px-4 mt-10 lg:mt-0">
-        <Link href="/service/#residential">
+        <Link href="/#buysell">
           <a className="font-bold text-lg">More</a>
         </Link>
         <div className="mt-4 ">
-          <Link href="/service/#residential">
+          <Link href="/#buysell">
             <a className="cursor-pointer">Building Commercial spaces</a>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#buysell">
             <h3 className="mt-3 cursor-pointer">
               Remodeling of commercial spaces
             </h3>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#buysell">
             <h3 className="mt-3 cursor-pointer">Contractor all risk policy</h3>
           </Link>
-          <Link href="/service/#residential">
+          <Link href="/#buysell">
             <h3 className="mt-3 cursor-pointer">
               Theft and burglary insurance
             </h3>
