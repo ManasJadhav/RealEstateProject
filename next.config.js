@@ -5,10 +5,7 @@ const nextConfig = {
       unoptimized: true,
     },
   },
-  // images: {
-  //   loader: "imgix",
-  //   path: "https://example.com/myaccount/",
-  // },
+  // 
   reactStrictMode: true,
 };
 
@@ -44,3 +41,7 @@ module.exports = nextConfig;
 //     return config;
 //   },
 // };
+images: {
+  //   loader: "imgix",
+  //   path: "https://example.com/myaccount/",
+  // },
