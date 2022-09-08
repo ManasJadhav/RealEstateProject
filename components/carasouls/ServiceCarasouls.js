@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
+import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -9,9 +9,6 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-
-// import Img1 from "/img1.png";
-
 const ServiceCarasouls = () => {
   return (
     <Swiper

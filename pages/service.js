@@ -13,7 +13,7 @@ const Services = () => {
       </div>
 
       <div className="text-center font-bold text-2xl mt-20">
-        <h1>Buy/Sell Properties</h1>
+        <h1>Buy/Sell Commercial And Residential Properties</h1>
       </div>
       <RealEstateServices />
 
