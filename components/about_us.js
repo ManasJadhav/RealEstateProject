@@ -3,9 +3,9 @@ import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
 
 function AboutUs() {
-  const [text, setText] = useState("manas");
+  const [text, setText] = useState("https://keyestateservices.com/");
   const notify = () => {
-    toast("🔗 Link to be shared copied !");
+    toast("🔗 Link Copied to clipboard!");
   };
 
   return (

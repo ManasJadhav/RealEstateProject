@@ -52,7 +52,7 @@ const ContactUs = (props) => {
             />
           </svg>
           <a>
-            <ReactWhatsapp number="8975319545" message="">
+            <ReactWhatsapp number="918975319545" message="">
               <button>
                 <span className="font-bold text-green-600 px-2">Whatsapp</span>
                 Us

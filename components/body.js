@@ -7,9 +7,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Body() {
-  const [text, setText] = useState("manas");
+  const [text, setText] = useState("https://keyestateservices.com/");
   const notify = () => {
-    toast("🔗 Link to be shared copied !");
+    toast("🔗 Link Copied to clipboard!");
   };
   return (
     <div className="bg-body bg-[url('/body-img2.png')] lg:grid lg:grid-cols-3 lg:pt-20 min-h-screen ">
