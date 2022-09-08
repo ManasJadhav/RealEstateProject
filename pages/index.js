@@ -9,11 +9,14 @@ import Footer from "../components/footer";
 import Navnew from "../components/navbar2";
 import WhyUS from "../components/WhyUs";
 import Testimonials from "../components/Testimonials";
+import React from "react";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   return (
     <div className="m-0">
       <Navnew />
+      
       {/* <Navbar /> */}
       <Body></Body>
       <AboutUs></AboutUs>

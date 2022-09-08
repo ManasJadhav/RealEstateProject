@@ -11,7 +11,12 @@ const Residential_Services = () => {
       <Card mainIndex={mainIndex} subIndex={3} heading={"Water Proofing"} />
       <Card mainIndex={mainIndex} subIndex={4} heading={"Kitchen Designing"} />
       <Card mainIndex={mainIndex} subIndex={5} heading={"Painting Services"} />
-      <Card mainIndex={mainIndex} subIndex={6} heading={"Pest Control"} />
+      <Card
+        mainIndex={mainIndex}
+        subIndex={6}
+        heading={"Pest Control"}
+        id="more"
+      />
     </div>
   );
 };

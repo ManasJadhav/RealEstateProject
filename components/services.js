@@ -12,12 +12,12 @@ const Services = () => {
       <div className="lg:grid lg:grid-cols-3 mt-4">
         <div className="card-1 ">
           <div className="flex justify-center">
-            <h1 className="font-bold text-2xl">Real Estate Services</h1>
+            <h1 className="font-bold text-2xl">Buy/Sell Properties</h1>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg lg:mx-20 mx-8 mt-4 mb-4">
             <img
               className="w-full border-b-2 "
-              src="/assets/home page photos/buy-sell_home.png"
+              src="/assets/home page photos/buy-sell-home.png"
               alt="Sunset in the mountains"
             />
             <div className="px-6 py-4">

@@ -18,7 +18,7 @@ const ServiceCarasouls = () => {
       slidesPerView={1}
       spaceBetween={30}
       autoplay={{
-        delay: 2500,
+        delay: 8000,
         disableOnInteraction: false,
       }}
       loop={true}
@@ -29,6 +29,12 @@ const ServiceCarasouls = () => {
       modules={[Autoplay, Pagination, Navigation]}
       className="mySwiper lg:h-[38rem]"
     >
+      <SwiperSlide>
+        <img
+          className="lg:w-full lg:h-[39rem] h-[16rem]"
+          src="/assets/ServiceCarasouls/img6.png"
+        />
+      </SwiperSlide>
       <SwiperSlide>
         <img
           className="lg:w-full lg:h-[39rem] h-[16rem]"

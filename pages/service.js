@@ -13,11 +13,11 @@ const Services = () => {
       </div>
 
       <div className="text-center font-bold text-2xl mt-20">
-        <h1>Real Estate Services</h1>
+        <h1>Buy/Sell Properties</h1>
       </div>
       <RealEstateServices />
 
-      <div className="text-center font-bold text-2xl mt-20">
+      <div className="text-center font-bold text-2xl mt-20" id="residential">
         <h1>Residential Services</h1>
       </div>
       <Residential_Services />

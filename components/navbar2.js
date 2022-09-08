@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Router, useRouter } from "next/router";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 import ContactUs from "./contactUs";
 const Navnew = () => {
   const [navbar, setNavbar] = useState(false);
   const [clicked, setClicked] = useState(false);
-
   const [toggle, setToggle] = useState(1);
 
   const handleClicked = () => {
@@ -135,19 +135,31 @@ const Navnew = () => {
             >
               <a className=""></a>
               {!clicked ? (
-                <a href="javascript:void(0)" className="">
+                <Link href="javascript:void(0)" className="">
                   Contact us
-                </a>
+                </Link>
               ) : (
-                <a href="javascript:void(0)" className="">
+                <Link href="javascript:void(0)" className="">
                   Close
-                </a>
+                </Link>
               )}
             </button>
           </div>
         </Link>
       </div>
       <ContactUs clicked={clicked} />
+      <Marquee
+        speed={50}
+        gradientWidth={100}
+        direction="right"
+        pauseOnHover={true}
+        className="z-10 bg-[#072960] text-white"
+      >
+        <Link className="font-bold text-xl tracking-widest" href="/service">
+          -------- Buy/Sell Residential Property and Commercial Properties
+          ---------
+        </Link>
+      </Marquee>
     </nav>
   );
 };

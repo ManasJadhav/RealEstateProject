@@ -3,7 +3,7 @@ import Card from "../utility.js/card";
 const mainIndex = 1;
 const CommercialServices = () => {
   return (
-    <div className="lg:grid lg:grid-cols-3 mt-8">
+    <div className="lg:grid lg:grid-cols-3 mt-8" id="commercial">
       <Card
         mainIndex={mainIndex}
         subIndex={0}
