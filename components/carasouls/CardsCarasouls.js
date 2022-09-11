@@ -4,6 +4,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 import Images2 from "../imageData/image2";
+import Image from "next/image";
 
 const CardsCarasouls = (props) => {
   const ImageUrl = Images2[props.index.mainIndex][props.index.subIndex];
@@ -24,7 +25,7 @@ const CardsCarasouls = (props) => {
       {ImageUrl.map((item) => {
         return (
           <SwiperSlide key={item.id}>
-            <img className="w-full h-[16rem]" src={item.img} />
+            <Image width={500} height={370} src={item.img} />
           </SwiperSlide>
         );
       })}

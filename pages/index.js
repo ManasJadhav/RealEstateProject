@@ -32,11 +32,11 @@ export default function Home() {
       <Sendmail />
       <Footer /> */}
       <Navnew />
-      <div className="p-8 relative top-20">
+      <div className="p-8 relative top-32">
         <ServiceCarasouls />
       </div>
 
-      <div className="text-center font-bold text-2xl mt-20" id="buysell">
+      <div className="text-center font-bold text-2xl mt-32" id="buysell">
         <h1>Buy/Sell Commercial And Residential Properties</h1>
       </div>
       <RealEstateServices />

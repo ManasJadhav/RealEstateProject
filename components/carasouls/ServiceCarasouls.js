@@ -15,7 +15,7 @@ const ServiceCarasouls = () => {
       slidesPerView={1}
       spaceBetween={30}
       autoplay={{
-        delay: 8000,
+        delay: 10000,
         disableOnInteraction: false,
       }}
       loop={true}

@@ -44,7 +44,6 @@ const Images2 = [
     [
       { id: 19, img: "assets/Residential_services/waterproofing/img1.webp" },
       { id: 20, img: "assets/Residential_services/waterproofing/img2.jpg" },
-      { id: 21, img: "assets/Residential_services/waterproofing/img2.jpg" },
       { id: 22, img: "assets/Residential_services/waterproofing/img3.jpg" },
       { id: 23, img: "assets/Residential_services/waterproofing/img4.jpg" },
       { id: 24, img: "assets/Residential_services/waterproofing/img5.jpg" },

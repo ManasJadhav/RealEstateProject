@@ -90,7 +90,7 @@ const Navnew = () => {
                       : "bg-white text-black py-3 rounded lg:mr-0 mr-2 px-6 cursor-pointer"
                   }
                 >
-                  Home
+                  Services
                 </li>
               </Link>
 
@@ -153,9 +153,9 @@ const Navnew = () => {
         gradientWidth={100}
         direction="right"
         pauseOnHover={true}
-        className="z-10 bg-[#072960] text-white h-10 text-xl font-bold"
+        className="z-10 bg-[#072960] text-white h-16 text-2xl font-bold"
       >
-        <Link className="font-bold text-xl tracking-widest" href="/service">
+        <Link className="font-bold text-xl tracking-widest" href="/">
           -------- Buy/Sell Residential Property and Commercial Properties
           ---------
         </Link>
