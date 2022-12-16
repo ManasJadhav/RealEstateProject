@@ -7,7 +7,7 @@ const ContactUs = (props) => {
     <div
       className={
         props.clicked
-          ? " lg:absolute top-23 shadow-2xl lg:p-12 p-6 lg:py-10 py-8 z-10 bg-white left-3/4 ml-2 rounded-lg mt-4 "
+          ? " lg:absolute top-36 shadow-2xl lg:p-12 p-6 lg:py-10 py-8 z-10 bg-white left-3/4 ml-2 rounded-lg mt-4 "
           : "absolute hidden top-20"
       }
     >
@@ -66,7 +66,7 @@ const ContactUs = (props) => {
         </div>
         <div className="grid col-span-4 hover:bg-body hover:text-white w-fit rounded-lg px-2 text-blue-600  font-bold py-2">
           <h3 className="col-span-1">Mail us :</h3>
-          <p className="">reachshilpagopinath@gmail.com</p>
+          <p className="">reachshilpa@keyestateservices.com</p>
         </div>
       </div>
     </div>

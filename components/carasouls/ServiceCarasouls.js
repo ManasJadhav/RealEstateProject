@@ -35,7 +35,7 @@ const ServiceCarasouls = () => {
       <SwiperSlide>
         <img
           className="lg:w-full lg:h-[39rem] h-[16rem]"
-          src="/assets/ServiceCarasouls/img1.png"
+          src="/assets/ServiceCarasouls/img1.jpeg"
         />
       </SwiperSlide>
       <SwiperSlide>

@@ -94,7 +94,7 @@ const Navnew = () => {
                 </li>
               </Link>
 
-              <Link href="/service">
+              <Link href="/aboutUs">
                 <li
                   onClick={() => setToggle(2)}
                   className={
